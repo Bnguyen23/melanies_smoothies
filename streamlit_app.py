@@ -2,7 +2,7 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 
-
+st.title('My Parents New Healthy Diner')
 
 #name for the order
 name_on_order = st.text_input('Name on Smoothie:')
